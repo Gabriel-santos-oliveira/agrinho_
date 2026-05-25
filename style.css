@@ -13,7 +13,6 @@
 /* ================================= */
 
 :root{
-
   --azul:#0D47A1;
   --azul-celeste:#4FC3F7;
   --azul-metalico:#6EA8FE;
@@ -28,8 +27,7 @@
 
   --radius:22px;
 
-  --sombra:
-  0 10px 30px rgba(0,0,0,.35);
+  --sombra: 0 10px 30px rgba(0,0,0,.35);
 
   --transition:.3s ease;
 
@@ -41,7 +39,6 @@
 /* ================================= */
 
 body{
-
   font-family:'Inter',sans-serif;
 
   background:
@@ -62,7 +59,6 @@ body{
 /* ================================= */
 
 .header{
-
   position:sticky;
   top:0;
 
@@ -82,11 +78,8 @@ body{
 }
 
 .logo{
-
   font-size:clamp(1.5rem,3vw,2.2rem);
-
   font-weight:800;
-
   color:var(--branco);
 }
 
@@ -95,17 +88,13 @@ body{
 }
 
 .menu{
-
   display:flex;
   gap:1.5rem;
 }
 
 .menu a{
-
   text-decoration:none;
-
   color:var(--branco);
-
   transition:var(--transition);
 }
 
@@ -118,71 +107,47 @@ body{
 /* ================================= */
 
 .hero{
-
   min-height:95vh;
-
   display:flex;
   align-items:center;
-
   padding:6rem 5vw;
-
   position:relative;
 }
 
 .hero-overlay{
-
   position:absolute;
   inset:0;
-
-  background:
-  linear-gradient(to right,
-  rgba(0,0,0,.85),
-  rgba(0,0,0,.4));
+  background: linear-gradient(to right, rgba(0,0,0,.85), rgba(0,0,0,.4));
 }
 
 .hero-content{
-
   position:relative;
   z-index:2;
-
   max-width:850px;
 }
 
 .tag{
-
   color:var(--amarelo);
-
   margin-bottom:1rem;
-
   text-transform:uppercase;
-
   letter-spacing:1px;
 }
 
 .hero h1{
-
   font-size:clamp(3rem,7vw,6rem);
-
   line-height:1.1;
-
   margin-bottom:1rem;
 }
 
 .hero h2{
-
   font-size:clamp(1.2rem,3vw,2rem);
-
   color:var(--azul-celeste);
-
   margin-bottom:1.5rem;
 }
 
 .hero p{
-
   color:var(--texto-sec);
-
   margin-bottom:2rem;
-
   max-width:700px;
 }
 
@@ -191,7 +156,6 @@ body{
 /* ================================= */
 
 .btn-primary{
-
   display:inline-flex;
   align-items:center;
   justify-content:center;
@@ -209,16 +173,13 @@ body{
 
   color:var(--branco);
 
-  background:
-  linear-gradient(135deg,var(--verde),var(--azul-celeste));
+  background: linear-gradient(135deg,var(--verde),var(--azul-celeste));
 
   transition:var(--transition);
 }
 
 .btn-primary:hover{
-
   transform:translateY(-3px);
-
   box-shadow:0 12px 25px rgba(79,195,247,.3);
 }
 
@@ -227,20 +188,13 @@ body{
 /* ================================= */
 
 .layout{
-
   display:grid;
-
-  grid-template-columns:
-  minmax(0,2fr)
-  minmax(300px,420px);
-
+  grid-template-columns: minmax(0,2fr) minmax(300px,420px);
   gap:2rem;
-
   padding:4rem 5vw;
 }
 
 .conteudo-principal{
-
   display:flex;
   flex-direction:column;
   gap:2rem;
@@ -251,9 +205,7 @@ body{
 /* ================================= */
 
 .titulo-secao h2{
-
   font-size:clamp(2rem,4vw,3rem);
-
   margin-bottom:.8rem;
 }
 
@@ -270,31 +222,21 @@ body{
 .formulario-card,
 .comentario-box,
 .accordion-item{
-
   background:rgba(255,255,255,.06);
-
   border:1px solid rgba(255,255,255,.08);
-
   backdrop-filter:blur(10px);
-
   border-radius:var(--radius);
-
   padding:2rem;
-
   box-shadow:var(--sombra);
 }
 
 .destaque h3{
-
   margin-bottom:1rem;
-
   font-size:1.7rem;
 }
 
 .highlight{
-
   color:var(--amarelo);
-
   font-weight:700;
 }
 
@@ -303,36 +245,25 @@ body{
 /* ================================= */
 
 .galeria{
-
   display:grid;
-
-  grid-template-columns:
-  repeat(auto-fit,minmax(240px,1fr));
-
+  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
   gap:1.5rem;
 }
 
 .imagem{
-
   overflow:hidden;
-
   border-radius:var(--radius);
-
   box-shadow:var(--sombra);
 }
 
 .imagem img{
-
   width:100%;
   height:100%;
-
   object-fit:cover;
-
   transition:var(--transition);
 }
 
 .imagem img:hover{
-
   transform:scale(1.05);
 }
 
@@ -341,19 +272,13 @@ body{
 /* ================================= */
 
 .cards-grid{
-
   display:grid;
-
-  grid-template-columns:
-  repeat(auto-fit,minmax(240px,1fr));
-
+  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
   gap:1.5rem;
 }
 
 .info-card h3{
-
   color:var(--azul-celeste);
-
   margin-bottom:1rem;
 }
 
@@ -362,45 +287,30 @@ body{
 /* ================================= */
 
 .accordion{
-
   display:flex;
   flex-direction:column;
-
   gap:1rem;
 }
 
 .accordion-header{
-
   width:100%;
-
   border:none;
-
   background:transparent;
-
   color:var(--branco);
-
   font-size:1rem;
-
   font-weight:700;
-
   text-align:left;
-
   cursor:pointer;
 }
 
 .accordion-content{
-
   max-height:0;
-
   overflow:hidden;
-
   transition:max-height .4s ease;
 }
 
 .accordion-item.active .accordion-content{
-
   max-height:300px;
-
   margin-top:1rem;
 }
 
@@ -413,42 +323,30 @@ body{
 }
 
 .formulario-card{
-
   position:sticky;
-
   top:100px;
 }
 
 .formulario-card h2{
-
   margin-bottom:1rem;
 }
 
 .formulario-card p{
-
   color:var(--texto-sec);
-
   margin-bottom:1.5rem;
 }
 
 form{
-
   display:flex;
   flex-direction:column;
-
   gap:1rem;
 }
 
 form input{
-
   padding:1rem;
-
   border-radius:14px;
-
   border:1px solid rgba(255,255,255,.08);
-
   background:rgba(255,255,255,.08);
-
   color:var(--branco);
 }
 
@@ -461,27 +359,18 @@ form input::placeholder{
 /* ================================= */
 
 .comentario-box{
-
   display:flex;
   flex-direction:column;
-
   gap:1rem;
 }
 
 .comentario-box textarea{
-
   min-height:180px;
-
   resize:vertical;
-
   border:none;
-
   border-radius:18px;
-
   padding:1rem;
-
   background:rgba(255,255,255,.08);
-
   color:var(--branco);
 }
 
@@ -490,46 +379,28 @@ form input::placeholder{
 /* ================================= */
 
 .acessibilidade{
-
   position:fixed;
-
   right:20px;
   bottom:20px;
-
   z-index:999;
-
   width:220px;
-
   display:flex;
   flex-direction:column;
-
   gap:.7rem;
-
   padding:1rem;
-
   background:rgba(0,0,0,.88);
-
   border-radius:20px;
-
   border:1px solid rgba(255,255,255,.08);
-
   backdrop-filter:blur(10px);
 }
 
 .acessibilidade button{
-
   padding:.8rem;
-
   border:none;
-
   border-radius:12px;
-
   background:var(--azul-metalico);
-
   color:var(--branco);
-
   cursor:pointer;
-
   font-weight:600;
 }
 
@@ -538,63 +409,80 @@ form input::placeholder{
 /* ================================= */
 
 .footer{
-
   margin-top:4rem;
-
   padding:3rem 5vw;
-
   background:rgba(0,0,0,.5);
-
   border-top:1px solid rgba(255,255,255,.08);
 }
 
 .footer-content{
-
   display:flex;
   flex-direction:column;
-
   gap:2rem;
 }
 
 .referencias ul{
-
   margin-top:1rem;
-
   padding-left:1.2rem;
 }
 
 .referencias li{
-
   margin-bottom:.5rem;
-
   color:var(--texto-sec);
 }
 
 /* ================================= */
-/* LIGHT MODE */
+/* LIGHT MODE (CORRIGIDO)            */
 /* ================================= */
 
-body.light-mode{
-
-  background:#F5F9FF;
-
-  color:#111827;
+body.light-mode {
+  background: #F5F9FF;
+  color: #111827;
 }
 
+/* Correção do ponto e vírgula e valor alpha corrigido de 95 para 0.95 */
 body.light-mode .card,
 body.light-mode .info-card,
 body.light-mode .formulario-card,
 body.light-mode .comentario-box,
-body.light-mode .accordion-item;
-{
-
-  background:rgba(255,255,255,95);
-
-  color:#111827;
+body.light-mode .accordion-item {
+  background: rgba(255, 255, 255, 0.95);
+  color: #111827;
+  border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-body.light-mode .menu a{
-  color:#111827;
+/* Garante a mudança de cor de todos os títulos e subtítulos de seções */
+body.light-mode .titulo-secao h2,
+body.light-mode .titulo-secao p,
+body.light-mode .destaque h3,
+body.light-mode .formulario-card h2,
+body.light-mode .formulario-card p {
+  color: #111827;
+}
+
+/* Corrige os links do menu e botões do Accordion */
+body.light-mode .menu a,
+body.light-mode .accordion-header {
+  color: #111827;
+}
+
+/* Ajuste dos parágrafos internos dos cards e acordeão aberto */
+body.light-mode .accordion-content p,
+body.light-mode .card p {
+  color: #374151;
+}
+
+/* Estilização dos inputs e caixas de texto no modo claro */
+body.light-mode form input,
+body.light-mode .comentario-box textarea {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #111827;
+}
+
+body.light-mode form input::placeholder,
+body.light-mode .comentario-box textarea::placeholder {
+  color: #6b7280;
 }
 
 /* ================================= */
@@ -602,7 +490,6 @@ body.light-mode .menu a{
 /* ================================= */
 
 @media(max-width:1024px){
-
   .layout{
     grid-template-columns:1fr;
   }
@@ -614,18 +501,13 @@ body.light-mode .menu a{
 }
 
 @media(max-width:768px){
-
   .header{
-
     flex-direction:column;
-
     gap:1rem;
   }
 
   .menu{
-
     flex-wrap:wrap;
-
     justify-content:center;
   }
 
@@ -639,7 +521,6 @@ body.light-mode .menu a{
 }
 
 @media(max-width:480px){
-
   .hero{
     padding-top:8rem;
   }
@@ -648,7 +529,6 @@ body.light-mode .menu a{
   .info-card,
   .formulario-card,
   .comentario-box{
-
     padding:1.3rem;
   }
 }

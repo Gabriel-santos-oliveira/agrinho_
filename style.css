@@ -432,58 +432,82 @@ form input::placeholder{
 }
 
 /* ================================= */
-/* LIGHT MODE (TOTALMENTE LIMPO)     */
+/* LIGHT MODE */
 /* ================================= */
 
-/* 1. Fundo geral do site e cor base do texto */
-body.light-mode {
-  background: #F5F9FF !important;
-  color: #111827 !important;
+body.light-mode{
+
+  --texto:#111827;
+  --texto-sec:#374151;
+
+  --branco:#111827;
+
+  background:#F5F9FF !important;
+
+  color:var(--texto);
 }
 
-/* 2. Fundo dos cards e caixas (Fundo branco, texto escuro) */
+/* Cards */
 body.light-mode .card,
 body.light-mode .info-card,
 body.light-mode .formulario-card,
 body.light-mode .comentario-box,
-body.light-mode .accordion-item {
-  background: #FFFFFF !important;
-  color: #111827 !important;
-  border: 1px solid rgba(0, 0, 0, 0.12) !important;
+body.light-mode .accordion-item{
+  background:#FFFFFF;
+  border:1px solid rgba(0,0,0,.12);
 }
 
-/* 3. Títulos de todas as seções (Incluindo os "Benefícios da IA") */
-body.light-mode .titulo-secao h2,
-body.light-mode .titulo-secao p,
-body.light-mode .destaque h3,
-body.light-mode .formulario-card h2,
-body.light-mode .formulario-card p {
-  color: #111827 !important;
+/* Header */
+body.light-mode .header{
+  background:rgba(255,255,255,.85);
+  border-bottom:1px solid rgba(0,0,0,.08);
 }
 
-/* 4. Letras dos botões do Accordion e Links do Menu */
-body.light-mode .menu a,
-body.light-mode .accordion-header {
-  color: #111827 !important;
+/* Menu */
+body.light-mode .menu a{
+  color:var(--texto);
 }
 
-/* 5. Textos internos dos parágrafos */
+/* Textos */
+body.light-mode p,
+body.light-mode li,
 body.light-mode .accordion-content p,
-body.light-mode .card p {
-  color: #374151 !important;
+body.light-mode .titulo-secao p{
+  color:var(--texto-sec);
 }
 
-/* 6. Inputs do formulário e caixa de comentários */
-body.light-mode form input,
-body.light-mode .comentario-box textarea {
-  background: #EAECEF !important;
-  border: 1px solid #D1D5DB !important;
-  color: #111827 !important;
+/* Títulos */
+body.light-mode h1,
+body.light-mode h2,
+body.light-mode h3,
+body.light-mode h4,
+body.light-mode .accordion-header,
+body.light-mode .logo{
+  color:var(--texto);
 }
 
-body.light-mode form input::placeholder,
-body.light-mode .comentario-box textarea::placeholder {
-  color: #6B7280 !important;
+/* Inputs */
+body.light-mode input,
+body.light-mode textarea{
+  background:#EAECEF;
+  border:1px solid #D1D5DB;
+  color:#111827;
+}
+
+body.light-mode input::placeholder,
+body.light-mode textarea::placeholder{
+  color:#6B7280;
+}
+
+/* Footer */
+body.light-mode .footer{
+  background:#FFFFFF;
+}
+
+/* Acessibilidade */
+body.light-mode .acessibilidade{
+  background:#FFFFFF;
+  border:1px solid rgba(0,0,0,.1);
 }
 /* ================================= */
 /* RESPONSIVO */

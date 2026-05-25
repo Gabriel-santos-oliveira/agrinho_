@@ -585,9 +585,10 @@ body.light-mode .card,
 body.light-mode .info-card,
 body.light-mode .formulario-card,
 body.light-mode .comentario-box,
-body.light-mode .accordion-item{
+body.light-mode .accordion-item;
+{
 
-  background:rgba(255,255,255,.95);
+  background:rgba(255,255,255,95);
 
   color:#111827;
 }

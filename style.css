@@ -432,59 +432,59 @@ form input::placeholder{
 }
 
 /* ================================= */
-/* LIGHT MODE (CORRIGIDO)            */
+/* LIGHT MODE (TOTALMENTE LIMPO)     */
 /* ================================= */
 
+/* 1. Fundo geral do site e cor base do texto */
 body.light-mode {
-  background: #F5F9FF;
-  color: #111827;
+  background: #F5F9FF !important;
+  color: #111827 !important;
 }
 
-/* Correção do ponto e vírgula e valor alpha corrigido de 95 para 0.95 */
+/* 2. Fundo dos cards e caixas (Fundo branco, texto escuro) */
 body.light-mode .card,
 body.light-mode .info-card,
 body.light-mode .formulario-card,
 body.light-mode .comentario-box,
 body.light-mode .accordion-item {
-  background: rgba(255, 255, 255, 0.95);
-  color: #111827;
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: #FFFFFF !important;
+  color: #111827 !important;
+  border: 1px solid rgba(0, 0, 0, 0.12) !important;
 }
 
-/* Garante a mudança de cor de todos os títulos e subtítulos de seções */
+/* 3. Títulos de todas as seções (Incluindo os "Benefícios da IA") */
 body.light-mode .titulo-secao h2,
 body.light-mode .titulo-secao p,
 body.light-mode .destaque h3,
 body.light-mode .formulario-card h2,
 body.light-mode .formulario-card p {
-  color: #111827;
+  color: #111827 !important;
 }
 
-/* Corrige os links do menu e botões do Accordion */
+/* 4. Letras dos botões do Accordion e Links do Menu */
 body.light-mode .menu a,
 body.light-mode .accordion-header {
-  color: #111827;
+  color: #111827 !important;
 }
 
-/* Ajuste dos parágrafos internos dos cards e acordeão aberto */
+/* 5. Textos internos dos parágrafos */
 body.light-mode .accordion-content p,
 body.light-mode .card p {
-  color: #374151;
+  color: #374151 !important;
 }
 
-/* Estilização dos inputs e caixas de texto no modo claro */
+/* 6. Inputs do formulário e caixa de comentários */
 body.light-mode form input,
 body.light-mode .comentario-box textarea {
-  background: rgba(0, 0, 0, 0.05);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  color: #111827;
+  background: #EAECEF !important;
+  border: 1px solid #D1D5DB !important;
+  color: #111827 !important;
 }
 
 body.light-mode form input::placeholder,
 body.light-mode .comentario-box textarea::placeholder {
-  color: #6b7280;
+  color: #6B7280 !important;
 }
-
 /* ================================= */
 /* RESPONSIVO */
 /* ================================= */

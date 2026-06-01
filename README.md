@@ -1,37 +1,39 @@
-# 🌱 Agro Forte Futuro Sustentável
+# 🌾 AgroVisão Inteligente
 
-## 📌 Tema da Página
-Agro moderno, sustentabilidade, Inteligência Artificial no campo e equilíbrio entre produção agrícola e meio ambiente.
+## 📌 Sobre o Projeto
 
----
-
-# 🎯 Objetivo da Página
-
-Apresentar uma experiência moderna, tecnológica e acessível sobre o impacto da Inteligência Artificial na agricultura sustentável brasileira.
-
-A proposta da página é demonstrar como:
-- IA pode otimizar recursos;
-- o agro pode crescer de forma sustentável;
-- a tecnologia fortalece o futuro da agricultura;
-- inovação e preservação ambiental podem caminhar juntas.
+Plataforma voltada para a agricultura inovadora, destacando a sustentabilidade, o uso da Inteligência Artificial e a integração entre tecnologia e preservação ambiental.
 
 ---
 
-# 🛠️ Tecnologias Utilizadas
+# 🎯 Finalidade
 
-- HTML5
-- CSS3
-- JavaScript
-- SpeechSynthesis API
-- CSS Grid
-- Flexbox
+Oferecer uma experiência interativa e informativa sobre como as novas tecnologias estão transformando o agronegócio brasileiro de maneira responsável e eficiente.
+
+A página demonstra como:
+
+* a Inteligência Artificial auxilia na tomada de decisões;
+* os recursos naturais podem ser utilizados com mais eficiência;
+* a inovação contribui para o aumento da produtividade;
+* desenvolvimento agrícola e conservação ambiental podem coexistir.
 
 ---
 
-# 📂 Estrutura do Projeto
+# 🛠️ Ferramentas Utilizadas
+
+* HTML5
+* CSS3
+* JavaScript
+* Web Speech API
+* CSS Grid Layout
+* Flexbox
+
+---
+
+# 📂 Organização dos Arquivos
 
 ```bash
-📁 projeto/
+📁 agrovisao/
 │
 ├── index.html
 ├── style.css
@@ -41,68 +43,72 @@ A proposta da página é demonstrar como:
 
 ---
 
-# ▶️ Como Utilizar
+# ▶️ Instruções de Uso
 
-## 1. Salve os arquivos
+## 1. Criar os Arquivos
 
-Crie uma pasta e adicione:
-- index.html
-- style.css
-- script.js
+Dentro da pasta do projeto, adicione:
 
----
-
-## 2. Adicione as imagens
-
-Substitua:
-- Foto1.png
-- Foto2.png
-- Foto3.png
-
-pelas imagens desejadas.
+* index.html
+* style.css
+* script.js
 
 ---
 
-## 3. Execute o projeto
+## 2. Inserir as Imagens
 
-Abra o arquivo:
+Troque os arquivos:
+
+* imagem1.png
+* imagem2.png
+* imagem3.png
+
+pelas imagens que desejar utilizar na página.
+
+---
+
+## 3. Abrir o Projeto
+
+Execute o arquivo:
 
 ```bash
 index.html
 ```
 
-em qualquer navegador moderno.
+utilizando qualquer navegador atualizado.
 
 ---
 
-# ♿ Recursos de Acessibilidade
+# ♿ Recursos Inclusivos
 
-A página possui:
-- Aumentar fonte
-- Diminuir fonte
-- Modo escuro/claro
-- Leitura por voz
-- Parar leitura
+A aplicação oferece funcionalidades de acessibilidade como:
 
----
-
-# 📱 Responsividade
-
-Compatível com:
-- Smartphones
-- Tablets
-- Notebooks
-- Monitores ultrawide
+* Ampliação de texto
+* Redução de texto
+* Alternância entre tema claro e escuro
+* Narração automática do conteúdo
+* Interrupção da leitura em voz
 
 ---
 
-# 📚 Referências Utilizadas
+# 📱 Adaptação para Diferentes Dispositivos
 
-- https://www.bemagro.com/beneficios-inteligencia-artificial-no-campo/
-- https://www.agrolink.com.br/noticias/o-campo-conectado--como-a-ia-vem-transformando-o-agro_514351.html
+Interface desenvolvida para funcionar adequadamente em:
+
+* Smartphones
+* Tablets
+* Computadores portáteis
+* Monitores de alta resolução
 
 ---
 
-# 🌎 Frase Institucional
+# 📚 Fontes de Pesquisa
 
-> AgroFuturo 2026 ° Conectando a inteligência tecnologia à terra de forma sustentável
+* https://www.bemagro.com/beneficios-inteligencia-artificial-no-campo/
+* https://www.agrolink.com.br/noticias/o-campo-conectado--como-a-ia-vem-transformando-o-agro_514351.html
+
+---
+
+# 🌎 Mensagem Institucional
+
+> AgroVisão Inteligente 2026 • Cultivando inovação, produtividade e sustentabilidade para as próximas gerações.

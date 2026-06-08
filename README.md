@@ -2,7 +2,7 @@
 
 ## 📌 Sobre o Projeto
 
-Plataforma voltada para a agricultura inovadora, destacando a sustentabilidade, o uso da Inteligência Artificial e a integração entre tecnologia e preservação ambiental.
+"Solução tecnológica para a nova agricultura, impulsionada por IA e focada em garantir que o progresso no campo caminhe lado a lado com a preservação da natureza."
 
 ---
 
@@ -40,54 +40,6 @@ A página demonstra como:
 ├── script.js
 └── README.md
 ```
-
----
-
-# ▶️ Instruções de Uso
-
-## 1. Criar os Arquivos
-
-Dentro da pasta do projeto, adicione:
-
-* index.html
-* style.css
-* script.js
-
----
-
-## 2. Inserir as Imagens
-
-Troque os arquivos:
-
-* imagem1.png
-* imagem2.png
-* imagem3.png
-
-pelas imagens que desejar utilizar na página.
-
----
-
-## 3. Abrir o Projeto
-
-Execute o arquivo:
-
-```bash
-index.html
-```
-
-utilizando qualquer navegador atualizado.
-
----
-
-# ♿ Recursos Inclusivos
-
-A aplicação oferece funcionalidades de acessibilidade como:
-
-* Ampliação de texto
-* Redução de texto
-* Alternância entre tema claro e escuro
-* Narração automática do conteúdo
-* Interrupção da leitura em voz
 
 ---
 

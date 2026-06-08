@@ -1,6 +1,4 @@
-/* ================================= */
 /* ACCORDION */
-/* ================================= */
 
 const accordionItems = document.querySelectorAll(".accordion-item");
 
@@ -12,9 +10,7 @@ accordionItems.forEach((item) => {
   });
 });
 
-/* ================================= */
 /* AUMENTAR / DIMINUIR FONTE */
-/* ================================= */
 
 const body = document.body;
 let tamanhoFonte = 16;
@@ -34,9 +30,7 @@ diminuirFonte.addEventListener("click", () => {
   }
 });
 
-/* ================================= */
-/* DARK / LIGHT MODE */
-/* ================================= */
+/* MODO ESCURO / CLARO */
 
 const alternarTema = document.getElementById("alternarTema");
 
@@ -44,9 +38,7 @@ alternarTema.addEventListener("click", () => {
   body.classList.toggle("light-mode");
 });
 
-/* ================================= */
 /* LEITURA POR VOZ */
-/* ================================= */
 
 const lerConteudo = document.getElementById("lerConteudo");
 const pararLeitura = document.getElementById("pararLeitura");
@@ -71,9 +63,7 @@ pararLeitura.addEventListener("click", () => {
   window.speechSynthesis.cancel();
 });
 
-/* ================================= */
 /* FORMULÁRIO */
-/* ================================= */
 
 const formulario = document.getElementById("formSeminario");
 
@@ -83,9 +73,7 @@ formulario.addEventListener("submit", (event) => {
   formulario.reset();
 });
 
-/* ================================= */
 /* COMENTÁRIOS */
-/* ================================= */
 
 const btnComentario = document.getElementById("btnComentario");
 const textarea = document.querySelector("textarea");
